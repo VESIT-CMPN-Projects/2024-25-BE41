@@ -1,0 +1,96 @@
+.queries {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.query-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.query-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.query-icon {
+  width: 40px;
+}
+
+.status {
+  font-size: 14px;
+}
+
+.status b {
+  text-transform: capitalize;
+}
+
+.status .pending {
+  color: orange;
+}
+
+.status .accepted {
+  color: green;
+}
+
+.status .rejected {
+  color: red;
+}
+
+.query-details, .customer-details {
+  margin-top: 10px;
+}
+
+.query-details p, .customer-details p {
+  font-size: 14px;
+}
+
+.query-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.accept-btn, .reject-btn {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.accept-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.reject-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .query-card {
+    padding: 10px;
+  }
+
+  .query-header {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .query-actions {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

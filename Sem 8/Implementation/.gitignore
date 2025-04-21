@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Node modules
+node_modules/
+
+# Dependency lock files
+package-lock.json
+
+# Python environment
+.env
+.venv
+env/
+venv/
+ENV/
+*.env
+
+# Git metadata
+.git/
+
+# Logs and debug
+*.log
+*.pid
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# SQL backups
+*.bak
+*.sql~
+
+# Ignore database and derived text files
+*.txt
+*.csv
+
+# Ignore compiled folders (optional, in case of C/C++ or Java)
+bin/
+build/
+out/
+
+# Ignore data notebook outputs (optional)
+*.nbconvert.ipynb
+
+
